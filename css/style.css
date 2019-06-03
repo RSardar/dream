@@ -1,0 +1,262 @@
+.cat-font {
+  font-family: "Catamaran", sans-serif; }
+
+.merri-font {
+  font-family: "Merriweather", serif; }
+
+.base-size {
+  font-size: 1.4rem; }
+
+.md-size {
+  font-size: 2rem; }
+
+.double-base {
+  font-size: 2.5rem; }
+
+.three-size {
+  font-size: 3rem; }
+
+.green {
+  color: #00bf80; }
+
+.green-bg {
+  background: #00bf80; }
+
+.grren-a a {
+  color: #00bf80; }
+
+.custom-black {
+  color: #303640; }
+
+.custom-black-bg {
+  background: #303640; }
+
+.custom-black-a a {
+  color: #303640; }
+
+.custom-blue {
+  color: #33bbff; }
+
+.custom-bg {
+  background: #33bbff; }
+
+.custom-blue-a a {
+  color: #33bbff; }
+
+.ash {
+  color: #7c8491; }
+
+.ash-bg {
+  background: #7c8491; }
+
+.ash-a a {
+  color: #7c8491; }
+
+/* MODULES */
+@media screen and (min-width: 576px) {
+  .container-semi {
+    width: 540px; } }
+@media screen and (min-width: 630px) {
+  #navbarSupportedContent ul.navbar-nav li {
+    display: block; } }
+@media screen and (min-width: 768px) {
+  .container-semi {
+    width: 750px; } }
+@media screen and (min-width: 992px) {
+  .container-semi {
+    width: 970px; }
+
+  .main-navbar {
+    display: none; } }
+@media screen and (min-width: 1200px) {
+  .container-semi {
+    width: 1170px; } }
+@media screen and (min-width: 1317px) {
+  .container-semi {
+    width: 1182px; } }
+/* MODULES */
+@media screen and (min-width: 576px) {
+  .container-semi {
+    width: 540px; } }
+@media screen and (min-width: 630px) {
+  #navbarSupportedContent ul.navbar-nav li {
+    display: block; } }
+@media screen and (min-width: 768px) {
+  .container-semi {
+    width: 750px; } }
+@media screen and (min-width: 992px) {
+  .container-semi {
+    width: 970px; }
+
+  .main-navbar {
+    display: none; } }
+@media screen and (min-width: 1200px) {
+  .container-semi {
+    width: 1170px; } }
+@media screen and (min-width: 1317px) {
+  .container-semi {
+    width: 1182px; } }
+/* PLUGINS */
+.container-semi {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+/* BASE STYLES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-family: "Catamaran", sans-serif;
+  counter-reset: myCounter;
+  position: relative;
+  color: #303640;
+  font-size: 1.4rem; }
+
+p {
+  font-size: 1.4rem; }
+
+h1, h2 {
+  font-weight: 600; }
+
+ul {
+  display: inline; }
+  ul li {
+    display: inline;
+    list-style-type: none; }
+
+a, a:hover {
+  text-decoration: none; }
+
+a, p, h1, h2, h3, h4, h5, h6, span, b, strong {
+  margin: 0; }
+
+img {
+  max-width: 100%;
+  max-height: 100%; }
+
+/* LAYOUTS */
+/* MODULES */
+.index_featured_category {
+  font-size: 1.4rem; }
+  .index_featured_category a {
+    color: #00bf80;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .index_featured_category .date {
+    font-size: 1.4rem; }
+
+.main_loop .featured-left {
+  z-index: 1; }
+.main_loop .featured-right {
+  z-index: 0; }
+
+.main_comment {
+  margin: 1.4rem 0; }
+
+/* MODULES */
+header {
+  padding: 1.4rem 0; }
+  header .logo img {
+    position: relative;
+    top: -5px; }
+  header .logo .logo-text {
+    font-size: 2.1rem;
+    color: #303640;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.2px; }
+    header .logo .logo-text:hover {
+      color: #00bf80; }
+  header .nav {
+    float: right; }
+  header ul {
+    margin-bottom: 0; }
+    header ul li {
+      display: inline-block;
+      margin: 0 0.8rem;
+      font-weight: bold; }
+      header ul li a {
+        color: #303640;
+        display: block;
+        font-size: 1.7rem; }
+        header ul li a:hover {
+          color: #00bf80; }
+    header ul li:first-child {
+      margin-left: 0; }
+    header ul li:last-child {
+      margin-right: 0; }
+
+.current-menu-item a {
+  color: #00bf80; }
+
+.index_featured_h2 {
+  font-size: 3.2rem;
+  margin-right: -35%;
+  z-index: 1;
+  background: white;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 0;
+  padding: 1.08rem 2.16rem 1.08rem 0; }
+  .index_featured_h2 a {
+    color: #303640; }
+    .index_featured_h2 a:hover {
+      color: #33bbff; }
+
+.index_featured_thumb img {
+  z-index: 0;
+  width: 287px;
+  height: 287px;
+  object-fit: cover; }
+
+.index_featued_excerpt {
+  font-size: 1.6rem; }
+
+/* MODULES */
+/*Inside Pages Design */
+.single_post h1 {
+  font-size: 5.4rem;
+  padding: 1.4rem 0; }
+.single_post .single_post_info {
+  font-size: 1.6rem; }
+  .single_post .single_post_info i {
+    margin-right: 5.4px; }
+  .single_post .single_post_info .category, .single_post .single_post_info .post_comments {
+    text-transform: capitalize; }
+    .single_post .single_post_info .category a, .single_post .single_post_info .post_comments a {
+      color: #303640; }
+  .single_post .single_post_info .date, .single_post .single_post_info .category {
+    margin-right: 21.6px; }
+.single_post img {
+  max-height: 600px;
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 3.6rem; }
+
+.main-content-section h2, .main-content-section h3, .main-content-section h4, .main-content-section h5, .main-content-section h6 {
+  font-family: "Catamaran", sans-serif; }
+.main-content-section h2 {
+  font-size: 3.3rem; }
+.main-content-section h3 {
+  font-size: 2.8rem; }
+.main-content-section h4 {
+  font-size: 2.3rem; }
+.main-content-section h2, .main-content-section h3 {
+  padding: 3rem 0 1.4rem 0; }
+.main-content-section p {
+  font-size: 1.7rem;
+  padding-bottom: 1rem;
+  line-height: 3rem; }
+
+/* Audit */
+/* Audit */
+/*Animation Section */
+
+/*# sourceMappingURL=style.css.map */

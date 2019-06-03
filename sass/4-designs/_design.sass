@@ -1,0 +1,59 @@
+//Header Section Design
+header
+  padding: $base-size 0
+  .logo
+    img
+      position: relative
+      top: -5px
+    .logo-text
+      font-size: $md-size + .1rem
+      color: $custom-black
+      font-weight: 900
+      text-transform: uppercase
+      letter-spacing: -.2px
+      &:hover
+        color: $green
+  .nav
+    float: right
+  ul
+    margin-bottom: 0
+    li
+      display: inline-block
+      margin: 0 .8rem
+      font-weight: bold
+      a
+        color: $custom-black
+        display: block
+        font-size: $base-size + .3rem
+        &:hover
+          color: $green
+    li:first-child
+      margin-left: 0
+    li:last-child
+      margin-right: 0
+.current-menu-item
+  a
+    color: $green
+
+//Featured Section
+.index_featured_h2
+  font-size: $three-size + .2rem
+  margin-right: -35%
+  z-index: 1
+  background: white
+  line-height: 1.2
+  letter-spacing: -0.02em
+  margin-bottom: 0
+  padding: 1.08rem 2.16rem 1.08rem 0
+  a
+    color: $custom-black
+    &:hover
+      color: $custom-blue
+.index_featured_thumb
+  img
+    z-index: 0
+    width: 287px
+    height: 287px
+    object-fit: cover
+.index_featued_excerpt
+  font-size: $base-size + .2rem
